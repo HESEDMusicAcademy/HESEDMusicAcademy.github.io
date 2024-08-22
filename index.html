@@ -4,18 +4,21 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>HESED Music Academy</title>
-  
+
+  <!-- Bootstrap CSS -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
   <!-- Swiper CSS -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.1/css/swiper.min.css">
 
-   <!-- Favicons -->
-<link rel="apple-touch-icon" href="./assets/images/apple-touch-icon.png" sizes="180x180">
-<link rel="icon" href="./assets/images/favicon-32x32.png" sizes="32x32" type="image/png">
-<link rel="icon" href="./assets/images/favicon-16x16.png" sizes="16x16" type="image/png">
-<link rel="manifest" href="./assets/images/site.webmanifest">
-<link rel="mask-icon" href="./assets/images/favicon.ico" color="#712cf9">
-<link rel="icon" href="./assets/images/favicon.ico">
-  
+  <!-- Favicons -->
+  <link rel="apple-touch-icon" href="./assets/images/apple-touch-icon.png" sizes="180x180">
+  <link rel="icon" href="./assets/images/favicon-32x32.png" sizes="32x32" type="image/png">
+  <link rel="icon" href="./assets/images/favicon-16x16.png" sizes="16x16" type="image/png">
+  <link rel="manifest" href="./assets/images/site.webmanifest">
+  <link rel="mask-icon" href="./assets/images/favicon.ico" color="#712cf9">
+  <link rel="icon" href="./assets/images/favicon.ico">
+
   <style>
     body {
       margin: 0;
@@ -24,7 +27,8 @@
     }
 
     .swiper-container {
-      width: 600px;
+      width: 100%;
+      max-width: 600px;
       padding-top: 50px;
       padding-bottom: 50px;
     }
@@ -32,7 +36,7 @@
     .swiper-slide {
       background-position: center;
       background-size: cover;
-      width: 350px;
+      width: 100%;
       height: 350px;
       border: 1px solid white;
     }
@@ -42,94 +46,116 @@
     }
 
     .swiper-slide:nth-child(2) {
-        background-image: url(./assets/images/IMG_4418.png);
+      background-image: url(./assets/images/IMG_4418.png);
     }
 
     .swiper-slide:nth-child(3) {
-        background-image: url(./assets/images/IMG_4478.png);
+      background-image: url(./assets/images/IMG_4478.png);
     }
 
     .swiper-slide:nth-child(4) {
-        background-image: url(./assets/images/IMG_4482.JPG);
+      background-image: url(./assets/images/IMG_4482.JPG);
     }
 
     .swiper-slide:nth-child(5) {
-        background-image: url(./assets/images/IMG_4482.JPG);
+      background-image: url(./assets/images/IMG_4482.JPG);
     }
 
     .swiper-slide:nth-child(6) {
-        background-image: url(./assets/images/IMG_4478.png);
+      background-image: url(./assets/images/IMG_4478.png);
     }
 
     .swiper-slide:nth-child(7) {
-        background-image: url(./assets/images/IMG_4418.png);
+      background-image: url(./assets/images/IMG_4418.png);
     }
 
     .swiper-slide:nth-child(8) {
-        background-image: url(./assets/images/IMG_4417.png);
+      background-image: url(./assets/images/IMG_4417.png);
     }
 
     .swiper-slide:nth-child(9) {
-        background-image: url(./assets/images/IMG_4418.png);
+      background-image: url(./assets/images/IMG_4418.png);
     }
 
     .swiper-slide:nth-child(10) {
-        background-image: url(./assets/images/IMG_4417.png);
+      background-image: url(./assets/images/IMG_4417.png);
     }
+
     .text-center {
       text-align: center;
     }
+
     .text-white {
       color: white;
     }
+
     .mt-0 {
       margin-top: 0px;
     }
+
     .mb-0 {
       margin-bottom: 0px;
     }
+
     .fs-100 {
       font-size: 100px;
     }
+
     .fs-45 {
       font-size: 45px;
     }
+
     .ff-monospace {
-      font-family: monospace ;
+      font-family: monospace;
     }
   </style>
 </head>
 <body>
-  <div>
-    <h1 class="text-center text-white mb-0 fs-100 ff-monospace">HESED</h1>
-    <h3 class="text-center text-white mt-0 fs-45 ff-monospace">Music Academy</h3>
-  </div>
-  <div class="swiper-container">
-    <div class="swiper-wrapper">
-      <div class="swiper-slide"></div>
-      <div class="swiper-slide"></div>
-      <div class="swiper-slide"></div>
-      <div class="swiper-slide"></div>
-      <div class="swiper-slide"></div>
-      <div class="swiper-slide"></div>
-      <div class="swiper-slide"></div>
-      <div class="swiper-slide"></div>
-      <div class="swiper-slide"></div>
-      <div class="swiper-slide"></div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h1 class="text-center text-white mb-0 fs-100 ff-monospace">HESED</h1>
+        <h3 class="text-center text-white mt-0 fs-45 ff-monospace">Music Academy</h3>
+      </div>
     </div>
-    <div class="swiper-pagination"></div>
 
-    <!-- Navigation buttons -->
-    <div class="swiper-button-prev"></div>
-    <div class="swiper-button-next"></div>
+    <div class="row justify-content-center">
+      <div class="col-12 col-md-8">
+        <div class="swiper-container">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide"></div>
+            <div class="swiper-slide"></div>
+            <div class="swiper-slide"></div>
+            <div class="swiper-slide"></div>
+            <div class="swiper-slide"></div>
+            <div class="swiper-slide"></div>
+            <div class="swiper-slide"></div>
+            <div class="swiper-slide"></div>
+            <div class="swiper-slide"></div>
+            <div class="swiper-slide"></div>
+          </div>
+          <div class="swiper-pagination"></div>
 
-    <!-- Scrollbar -->
-    <div class="swiper-scrollbar"></div>
+          <!-- Navigation buttons -->
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+
+          <!-- Scrollbar -->
+          <div class="swiper-scrollbar"></div>
+        </div>
+      </div>
+    </div>
   </div>
+
+  <!-- Bootstrap JS and dependencies -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
   <!-- Swiper JS -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.1/js/swiper.min.js"></script>
-  
+
   <script>
     var swiper = new Swiper('.swiper-container', {
       effect: 'coverflow',
